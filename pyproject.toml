@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sentry"
+version = "0.1.0"
+description = ""
+authors = ["ktnyt <kotone@sfc.keio.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests5 = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.950"
+flake8 = "^4.0.1"
+black = {version = "^22.3.0", allow-prereleases = true}
+types-requests = "^2.27.25"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
